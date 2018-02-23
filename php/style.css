@@ -1,0 +1,36 @@
+.container{
+    width: 500px;
+    height: auto;
+}
+
+.inputGroup{
+    display:flex;
+    flex-direction:column;
+    height:100px;
+    justify-content:space-around;
+    
+  }
+  .inputGroup input,.boutonGroup input{
+    letter-spacing:1.3px;
+    padding:5px;
+  }
+  .inputGroup input{
+    height:32px;
+  }
+  .boutonGroup input{
+    height:30px;
+    transition:transform 0.25s;
+    border-radius:5px;
+    border:1px solid #999999;
+  }
+  
+  .boutonGroup input:hover{
+    transform:scale(1.1,1.1);
+    border:1px solid #999999;
+  }
+  
+  
+  .boutonGroup{
+    display:flex;
+    justify-content:space-around;
+  }

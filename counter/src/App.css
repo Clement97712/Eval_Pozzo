@@ -1,0 +1,18 @@
+.bouton{
+  border:1px solid #999999;
+  border-radius:5px;
+  padding:5px 10px;
+  letter-spacing: 1.5px;
+  color: #2c2e2f;
+  margin:5px;
+
+}
+
+.App{
+  padding: 5px;
+}
+
+h3{
+  color: #2c2e2f;
+  margin:0px 0px 30px 76px;
+}
